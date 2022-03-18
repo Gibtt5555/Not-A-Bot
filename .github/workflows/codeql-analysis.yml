@@ -19,7 +19,7 @@ on:
 
   pull_request:
 
-        branches: [ main ]
+        branches: [ command ]
 
   schedule:
 
@@ -47,7 +47,7 @@ jobs:
 
       matrix:
 
-        language: [javascript]
+        language: ['javascript']
 
       steps:
 
