@@ -1,0 +1,8 @@
+{
+  "name": "Not-a-bot",
+  "author": "Dtntp",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}
