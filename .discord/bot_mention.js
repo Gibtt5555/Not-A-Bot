@@ -6,9 +6,9 @@ let messageResponse = await lib.discord.channels['@0.0.6'].messages.create({
 
   content: [
 
-    ` tag我幹嘛,好玩喔`,
+    ` tag我幹嘛,好玩喔 `,
 
-    `<@!${context.params.event.author.id}>/ ||~~來互相傷害啊啊啊啊啊~~||`
+    `<@!${context.params.event.author.id}>  ||~~來互相傷害啊啊啊啊啊~~||`
 
   ].join('\n'),
 
