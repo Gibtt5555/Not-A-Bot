@@ -1,0 +1,22 @@
+{
+  "name": "dtntp/not-a-bot",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/bot_mention.js": {
+      "name": "discord.bot_mention"
+    },
+    "functions/events/discord/command/members-count.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "members-count"
+      }
+    },
+    "functions/events/discord/command/help.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "help"
+      }
+    }
+  }
+}
